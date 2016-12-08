@@ -1,0 +1,3 @@
+﻿MAVR.UIManager = function() {
+	
+}

@@ -1,0 +1,3 @@
+﻿MAVR.WebizedThing = function() {
+	
+}

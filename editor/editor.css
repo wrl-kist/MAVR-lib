@@ -1,0 +1,89 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	overflow: hidden;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #ccc;
+}
+
+button {
+	position: relative;
+}
+
+textarea {
+	tab-size: 4;
+	white-space: pre;
+	word-wrap: normal;
+}
+
+	textarea.success {
+		border-color: #8b8 !important;
+	}
+
+	textarea.fail {
+		border-color: #f00 !important;
+		background-color: rgba(255,0,0,0.05);
+	}
+
+textarea, input { outline: none; } /* osx */
+
+#menubar {
+	position: absolute;
+	width: 100%;
+	height: 36px;
+	background: #eee;
+	padding: 0;
+	margin: 0;
+	left: 0;
+	
+	font-size : 20px;
+}
+
+#side {
+	position: absolute;
+    background: #eee;
+    width: 382px;
+    height: 92%;
+    bottom: 22px;
+    right: 0;
+}		
+
+#sidebar {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 380px;
+	background: #eee;
+	overflow: auto;
+	padding : 0px;
+	display:none;
+}
+
+	#sidebar * {
+		vertical-align: middle;
+	}
+
+
+#toolbar {
+	position: absolute;
+	width : 100%;
+	left: 0;
+	right: 300px;
+	bottom: 0;
+	height: 40px;
+	background: #eee;
+	color: #333;
+}
+
+	#toolbar * {
+		vertical-align: middle;
+	}
+
+#switchbar {
+	position : absolute;
+	right: 0;
+}

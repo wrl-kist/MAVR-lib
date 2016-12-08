@@ -1,0 +1,3 @@
+﻿MAVR.Renderer = function (  ) {
+	
+}
